@@ -1,0 +1,115 @@
+.colors {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+
+#red {
+	background-color: red;
+}
+
+#black {
+	background-color: black;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#purple {
+	background-color: purple;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+.textures {
+	width: 80px;
+	height: 35px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+
+#circles {
+	background-image: url('../images/texture-circles.png');
+}
+
+#cloth {
+	background-image: url('../images/texture-cloth.png');
+}
+
+#paper {
+	background-image: url('../images/texture-paper.png');
+}
+
+#swirls {
+	background-image: url('../images/texture-swirls.png');
+}
+
+#message-output {
+	font-size: 24px;
+	margin-top: 25px;
+	font-family: Arial;
+	text-align: center;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+}
+
+#recipient-output {
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+	position: absolute;
+	top: 150px;
+}
+
+.stickers_on_card {
+	cursor:move;
+}
+
+button.sticker-search-btn {
+  background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 1px solid #63a62f;
+  border-bottom: 1px solid #5b992b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+  box-shadow: inset 0 1px 0 0 #96ca6d;
+  color: #fff;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 75px; }
+  button.sticker-search-btn:hover {
+    background-color: #76b347;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: linear-gradient(top, #76b347, #5e9e2e);
+    -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+    -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+    box-shadow: inset 0 1px 0 0 #8dbf67;
+    cursor: pointer; }
+  button.sticker-search-btn:active {
+    border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
